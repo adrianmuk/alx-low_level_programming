@@ -15,6 +15,6 @@ int main(void)
 		putchar(n);
 		n += 1;
 	}
-	echo("\n");
+	printf("\n");
 	return (0);
 }
