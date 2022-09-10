@@ -8,13 +8,10 @@
 
 int main(void)
 {
-	int n = 48;
+	int num;
 
-	while (n <= 57)
-	{
-		putchar(n);
-		n += 1;
-	}
+	for (num = 0; num < 10; num++)
+		putchr((num % 10) + '0');
 	putchar("\n");
 	return (0);
 }
