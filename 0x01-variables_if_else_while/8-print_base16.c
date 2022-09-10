@@ -2,7 +2,7 @@
 
 /**
  *main -  program that prints all the numbers of base 16 in lowercase
- *You can only use the putchar function
+ *followed by a new line
  *Return: 0
  */
 
