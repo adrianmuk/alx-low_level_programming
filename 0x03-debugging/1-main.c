@@ -3,8 +3,6 @@
 /**
  * main - causes an infinite loop
  * Return: 0
- *
- * (@'\\o/\n"': emogi and new line)
  */
 
 int main(void)
@@ -14,15 +12,13 @@ int main(void)
 	printf("Infinite loop incoming :(\n");
 
 	i = 0;
-/**
- *	Reason - cause of the infinite loop
- *	(@\\o/\n": emogi and new line)
- *	while (i < 10)
- *	{
- *		putchar(i);
- *	}
- *	@'\\o/\n"' - emogi and new line
- */
+
+ 	/**
+	 * while (i < 10)
+	 * {
+	 * 	putchar(i);
+	 * }
+	 */
 	printf("Infinite loop avoided! \\o/\n");
 
 	return (0);
