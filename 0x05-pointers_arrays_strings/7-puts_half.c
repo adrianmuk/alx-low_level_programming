@@ -18,12 +18,10 @@ void puts_half(char *str)
 
 	c = i / 2;
 
-	/**
 	if (i % 2 == 1)
 	{
 		c++;
 	}
-	*/
 	while (str[c] != '\0')
 	{
 		_putchar(str[c]);
