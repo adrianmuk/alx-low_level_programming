@@ -8,7 +8,8 @@
 
 void print_number(int n)
 {
-	int a, b, digit, digits, power, temp, num, number;
+	int a, b, digit, digits, power;
+	unsigned int temp, num, number;
 
 	digit = 0;
 
